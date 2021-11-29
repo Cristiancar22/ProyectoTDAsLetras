@@ -1,0 +1,53 @@
+/*! \mainpage Proyecto TDAs no lineales
+
+# Introducción
+
+Este proyecto gira sobre el popular juego cifras y letras, centrándose en la parte de letras.
+Los TDAs implementados permiten al usuario jugar al juego de letras en diferentes modos.
+En el modo a longitud se tiene en cuenta sólo la longitud de las palabras, y gana la palabra más
+larga encontrada. Mientras que en el modo a puntos, cada letra se le asigna una puntuación, y
+la puntuación de la palabra será igual a la suma de las puntuaciones de las letras que la componen
+
+# Ejecutables
+
+## Conjunto_letras:
+
+Calcula la puntuación de una palabra
+
+> __conjunto_letras__ \<FichInfoLetras\> \<Palabra\>
+@param "<FichInfoLetras>" Ruta al archivo con información sobre el conjunto de letras
+@param "<Palabra>" Palabra de la que calcular la puntuación
+
+## Bolsa:
+
+Imprime letras o números aleatoriamente a partir de palabras o cifras introducidas como parámetro
+
+> __bolsa__ \<Tipo\> \<Elementos\>
+@param "<Tipo>" Podrá ser una letra C o una letra I. C indica que se trabajará con caracteres mientras que I con enteros
+@param "<Elementos>" Lista de enteros o caracteres según corresponda
+
+## Bolsa_letras:
+
+Imprime todos los valores introducidos de manera aleatoria.
+
+> __bolsa_letras__ \<FichInfoLetras\>
+@param "<FichInfoLetras>" Ruta al archivo con información sobre el conjunto de letras
+
+## Cantidad_letras:
+
+Imprime las ocurrencias absolutas y relativas de todas las letras de un fichero
+
+> __Cantidad_letras__ \<FichInfoLetras\> \<FichPalabras\>
+@param "<FichInfoLetras>" Ruta al archivo con información sobre el conjunto de letras
+@param "<FichPalabras>" Palabras de las que se cuentan las letras para el calculo de ocurrencias
+
+## Palabras_longitud:
+
+Devuelve todas las palabras de una longitud dada como parámetro de un fichero de palabras
+
+> __Cantidad_letras__ \<FichPalabras\> \<Longitud\>
+@param "<FichInfoLetras>" Ruta al archivo que contiene las palabras
+@param "<Longitud>" Tamaño de las palabras que se van a extraer
+
+
+*/
